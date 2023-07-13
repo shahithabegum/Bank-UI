@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+#formik-from{
+    width: 80%;
+    background-color: white !important;
+    box-shadow: -1px 1px 16px 5px rgba(252, 226, 226, 0.75);
+    -webkit-box-shadow: -1px 1px 16px 5px rgba(250, 220, 220, 0.75);
+    -moz-box-shadow: -1px 1px 16px 5px rgba(128, 24, 24, 0.75);
+}
+/* .btn-outline-info{
+ float: right;
+} */
+.h2title{
+    font-family: 'Playfair Display SC', serif;
+    color: #410a0a;
+}

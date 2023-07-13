@@ -1,0 +1,106 @@
+.login{
+    
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('../../../utilities/loginbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.logincontainter{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: max-content;
+}
+.formcol{
+    /* border: 2px solid black; */
+    height: 99vh !important;
+    background-color:rgb(253, 251, 251);
+    border-radius: 10px 0px 0px 10px;
+}
+.contentcol{
+    /* border: 2px solid black; */
+    border-radius: 0px 10px 10px 0px;
+    background-image: url('../../../utilities/redb2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh !important;
+    background-color: rgb(228, 235, 235);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+}
+.contentcol > h1{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 45%;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+.form >h1{
+    font-family: 'Playfair Display SC', serif;
+}
+.form > label{
+    font-family: 'Poppins', sans-serif;
+}
+.button{
+    width: 100%;
+}
+.contentcol > p{
+    color: white;
+   
+}
+.link{
+    color: black !important;
+    text-decoration: none;
+   
+}
+.formcontainer{
+    width: 70%;
+    margin-top: 30% !important;
+    height: max-content;
+    margin: auto;
+}
+.btn-btn-block{
+    width: 100%;
+}
+@media screen and (max-width:991px){
+    .contentcol{
+        display: none;
+    }
+    .formcol{
+        background-image: url('../../../utilities/bank.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+        color: white;
+    }
+    .formcontainer{
+        width: 70%;
+        margin-top: 50% !important;
+        height: max-content;
+        margin: auto;
+    }
+    .link{
+        color: white !important;
+        text-decoration: none;
+       
+    }
+    
+}
+@media screen and (max-width:575px){
+    .btn-info{
+        width: 100%;
+    }
+    .formcontainer{
+        width: 70%;
+        margin-top: 10% !important;
+        height: max-content;
+        margin: auto;
+    }
+    }
+    @media screen and (max-width:420px){
+        .formcontainer{
+            width: 70%;
+            margin-top: 60% !important;
+            height: max-content;
+            margin: auto;
+        }
+    }
+    

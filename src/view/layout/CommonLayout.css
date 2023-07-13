@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    position: relative;
+    margin-top: 50px;
+}
+.side{
+    flex: 1;
+    /* border: 2px solid black; */
+  
+}
+.others{
+    flex: 4;
+    /* border: 2px solid rgb(214, 48, 48); */
+   
+}

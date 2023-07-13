@@ -1,0 +1,13 @@
+.statement{
+    width: 80%;
+    height: max-content;
+  
+}
+.tablediv{
+     overflow-y: scroll;
+    height:500px !important;
+   border: 1px solid gray;
+   
+}
+
+

@@ -1,0 +1,33 @@
+.navbar{
+    height: 50px;
+    background: #f1d4d4;
+}
+.navbar-collapse{
+    background: #f1d4d4;
+    width: max-content !important;
+    gap: 0px;
+}
+.navbar-nav{
+    margin: auto;
+    margin-right: 10% !important;
+   
+}
+.tobar-icon{
+    background-color: rgb(128, 0, 0);
+    font-size: 40px !important;
+    color: white;
+   border-radius: 10%;
+}
+.dropdown-toggle{
+    color: #060c2b ;
+}
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom left, #ff8585 45%, #9b2e04 57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
